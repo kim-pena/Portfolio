@@ -2,9 +2,107 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 420px) {
+
 body {
     background-image: linear-gradient(#2b5876, #4e4376);
-    max-width: 1000px;
+}
+
+.intro {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: rgb(250, 243, 243);
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: rgb(250, 243, 243);
+    letter-spacing: 2px;
+}
+
+.profilePic {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.bio {
+    margin-top: 100px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    color: rgb(250, 243, 243);
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.projects {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(250, 243, 243);
+    letter-spacing: 1px;
+}
+
+.navBar {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin-top: 35px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: lightskyblue;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color: rgb(250, 243, 243);
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+footer {
+    margin-bottom: 75px;
+    margin-right: 10px;
+} 
+}
+
+@media screen and (min-width: 421px) {
+
+body {
+    background-image: linear-gradient(#2b5876, #4e4376);
 }
 
 .intro {
@@ -27,10 +125,14 @@ h2 {
     letter-spacing: 1px;
 }
 
-.headshot {
+.profilePic {
     float: right;
     margin-top: 120px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
 
 .bio {
@@ -42,10 +144,12 @@ p {
     font-size: 25px;
     line-height: 38px;
     color: rgb(250, 243, 243);
+    margin-left: 15px;
     margin-bottom: 50px;
 }
 
 .projects {
+    font-family: 'Source Sans Pro', sans-serif;
     margin-left: 15px;
     margin-top: 200px;
 }
@@ -74,10 +178,18 @@ li {
 }
 
 a {
-    color: rgb(235, 125, 125);
+    color: lightskyblue;
     letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+h4 {
+    color: rgb(250, 243, 243);
+    max-width: 260px;
 }
 
 footer {
     margin-bottom: 75px;
+    margin-right: 10px;
+}
 }
